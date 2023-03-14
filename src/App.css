@@ -1,0 +1,90 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.container{
+  display: flex;
+}
+
+.container-typo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.typo-text{
+align-self: normal;
+}
+.box-typo{
+  background: #F5F5F5;
+border: 6px solid #EBD8A7;
+border-radius: 20px;
+width: 100%;
+height: 30em;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+Button{
+  background-color: #BAC5A3;
+}
+.header {
+  background: #EAD9A7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 2rem 9%;
+  -webkit-box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  position: fixed;
+  /* top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  -webkit-transform: translateY(-10rem);
+  transform: translateY(-10rem); */
+}
+
+.logo-style{
+  color: #CC8C8D;
+}
